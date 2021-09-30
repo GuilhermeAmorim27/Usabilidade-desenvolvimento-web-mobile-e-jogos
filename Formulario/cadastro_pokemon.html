@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lan="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=ede">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro de pokemon</title>
+</head>
+
+<body>
+
+    <form>
+        <header>
+            <h1 alin=center>Cadastro de Pokemon</h1>
+        </header>
+
+        <div class="input-roup">
+            <label id="rotulo-numero" for="campo-numero">Numero:</label>
+            <input id="campo-numero" name="numero" type="number"> 
+
+        </div>
+
+        <div class="input-roup">
+            <label id="rotulo-nome" for="campo-nome">Nome:</label>
+            <input id="campo-nome" name="nome" type="text">
+
+        </div>
+
+        <div class="input-roup">
+            <label id="rotulo-tipo1" for="campo-tipo1">Tipo1: </label>
+            <select name="tipo1" id="campo-tipo1">
+                <option value="aço">Aço</option>
+                <option value="agua">Agua</option>
+                <option value="dragao">Dragao</option>
+                <option value="eletrico">Eletrico</option>
+                <option value="fada">Fada</option>
+                <option value="fantasma">Fantasma</option>
+                <option value="fogo">Fogo</option>
+                <option value="gelo">Gelo</option>
+                <option value="inseto">Inseto</option>
+                <option value="lutador">Lutador</option>
+                <option value="normal">Normal</option>
+                <option value="pedra">Pedra</option>
+                <option value="planta">Planta</option>
+                <option value="psiquico">Psiquico</option>
+                <option value="sombrio">Sombrio</option>
+                <option value="terra">Terra</option>
+                <option value="veneno">Veneno</option>
+                <option value="voador">Voador</option>
+            </select>
+        </div>
+
+        <div class="input-roup">
+            <label id="rotulo-tipo2" for="campo-tipo2">Tipo2: </label>
+            <select name="tipo2" id="campo-tipo2">
+                <option value="aço">Aço</option>
+                <option value="agua">Agua</option>
+                <option value="dragao">Dragao</option>
+                <option value="eletrico">Eletrico</option>
+                <option value="fada">Fada</option>
+                <option value="fantasma">Fantasma</option>
+                <option value="fogo">Fogo</option>
+                <option value="gelo">Gelo</option>
+                <option value="inseto">Inseto</option>
+                <option value="lutador">Lutador</option>
+                <option value="normal">Normal</option>
+                <option value="pedra">Pedra</option>
+                <option value="planta">Planta</option>
+                <option value="psiquico">Psiquico</option>
+                <option value="sombrio">Sombrio</option>
+                <option value="terra">Terra</option>
+                <option value="veneno">Veneno</option>
+                <option value="voador">Voador</option>
+            </select>
+        </div>
+
+
+
+        <div class="input-group">
+            <label id="rotulo-total" for="campo-total">Total: </label>
+            <input id="campo-total" name="total" type="number" min="1">
+        </div>
+
+        <div class="input-group">
+            <label id="rotulo-hp" for="campo-hp">HP: </label>
+            <input id="campo-hp" name="hp" type="number" min="1" max="255">
+        </div>
+
+        <div class="input-group">
+            <label id="rotulo-ataque" for="campo-ataque">Ataque: </label>
+            <input id="campo-ataque" name="ataque" type="number" min="1">
+        </div>
+
+        <div class="input-group">
+            <label id="rotulo-defesa" for="campo-defesa">Defesa: </label>
+            <input id="campo-defesa" name="defesa" type="number" min="1">
+        </div>
+
+        <div class="input-group">
+            <label id="rotulo-ataque_especial" for="campo-ataque_especial">Ataque_Especial: </label>
+            <input id="campo-ataque_especial" name="ataque_especial" type="number" min="1">
+        </div>
+
+        <div class="input-group">
+            <label id="rotulo-defesa_especial" for="campo-defesa_especial">Defesa_Especial: </label>
+            <input id="campo-defesa_especial" name="defesa_especial" type="number" min="1">
+        </div>
+
+        <div class="input-group">
+            <label id="rotulo-velocidade" for="campo-velocidade">Velocidade: </label>
+            <input id="campo-velocidade" name="velocidade" type="number" min="1">
+        </div>
+
+        <div class="input-group">
+            <label id="rotulo-geraçao" for="campo-geraçao">Geraçao: </label>
+            <input id="campo-geraçao" name="geraçao" type="number" min="1" max="7"  value="1">
+        </div>
+
+        <div>
+            <label id="rotulo-lendario">Lendario</label>
+            <input id="Sim" type="radio" name="lendario" value="Sim"> <label for="sim">Sim</label> 
+            <input id="Não" type="radio" name="lendario" value="Não"> <label for="nao">Não</label>
+        </div>
+
+        <fieldset>
+            <legend>Cor</legend>
+
+            
+            <div>
+                <input id="cor-amarelo" name="amarelo" type="checkbox">
+                <label for="cor-amarelo">Amarelo</label>
+            </div>
+
+            <div>
+                <input id="cor-azul" name="azul" type="checkbox">
+                <label for="cor-azul">Azul</label>
+            </div>
+
+            <div>
+                <input id="cor-branco" name="branco" type="checkbox">
+                <label for="cor-branco">Branco</label>
+            </div>
+
+            <div>
+                <input id="cor-cinza" name="cinza" type="checkbox">
+                <label for="cor-cinza">Cinza</label>
+            </div>
+
+            <div>
+                <input id="cor-marrom" name="marrom" type="checkbox">
+                <label for="cor-marrom">Marrom</label>
+            </div>
+
+            <div>
+                <input id="cor-preto" name="preto" type="checkbox">
+                <label for="cor-preto">Preto</label>
+            </div>
+
+            <div>
+                <input id="cor-rosa" name="rosa" type="checkbox">
+                <label for="cor-rosa">Rosa</label>
+            </div>
+
+            <div>
+                <input id="cor-roxo" name="roxo" type="checkbox">
+                <label for="cor-roxo">Roxo</label>
+            </div>
+
+            <div>
+                <input id="cor-verde" name="verde" type="checkbox">
+                <label for="cor-verde">Verde</label>
+            </div>
+
+            <div>
+                <input id="cor-vermelho" name="vermelho" type="checkbox">
+                <label for="cor-vermelho">Vermelho</label>
+            </div>
+         </fieldset>
+
+         <div class="input-group">
+             <label id="rotulo-altura" for="campo-altura">Altura_m:</label>
+             <input id="campo-altura" type="text">
+        </div>
+
+        <div class="input-group">
+            <label id="rotulo-peso" for="campo-peso">Peso_kg:</label>
+            <input id="campo-peso" type="number">
+       </div>
+
+       <div class="input-group">
+        <label id="rotulo-taxa_captura" for="campo-taxa_captura">Taxa_captura:</label>
+        <input id="campo-taxa_captura" type="number" min="1" max="255">
+   </div>
+   
+
+
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+</body>
+
+</html>
