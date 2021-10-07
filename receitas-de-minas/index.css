@@ -1,0 +1,25 @@
+h1{
+    color:black; 
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+ul{
+    margin-top: 50px;
+    margin-left: 40px;
+    list-style: circle;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+nav ul a:visited{
+    color: purple;
+}
+
+ ul a:hover{
+     color:green;
+ }

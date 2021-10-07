@@ -1,0 +1,59 @@
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    margin: 60px;
+}
+
+input{
+    padding: 5px;
+}
+
+select{
+    padding: 5px;
+}
+ 
+ form{
+    margin-left: 30px;
+}
+
+  .input-group{
+    margin-bottom: 15px;
+}
+
+.input-group label{
+    display: block;
+}
+
+.input-group input{
+    border: solid 1px rgb(111, 111, 173);
+}
+
+select{
+    border: solid 1px rgb(111, 111, 173);
+}
+
+.radio{
+     margin-bottom: 10px;
+}
+
+.campo{
+    margin-bottom: 10px;
+    display: inline-block;
+    border: solid 2px rgb(111, 111, 173);
+}
+
+
+.campo-object{
+    padding-right: 10px;
+    display: table-cell;
+}
+
+button{
+    margin-top: 5px;
+    background-color: rgb(83, 83, 131);
+    color: snow;
+    padding: 10px;
+}
+
+
+
